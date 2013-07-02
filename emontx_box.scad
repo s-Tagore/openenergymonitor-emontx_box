@@ -28,9 +28,10 @@ TEMP=0;
 PULSE=0;
 LED_HOLE=1;
 
-// BOX LID : set to 0 if not required, or 1 if required
+// BOX LID; BATTERY_COMPARTMENT : set to 0 if not required, or 1 if required
 
-BOX_LID=1;
+BOX_LID=1;					// 0 for no LID
+
 
 
 
@@ -38,18 +39,21 @@ BOX_LID=1;
 // ===================================================
 
 interior_extra_space=1.7;  // increase board size for smoother fit  // note that this may not scale the connector holes..
-  													// ...and led hole correctly. first attempt set at 0.7mm
+														// ...and led hole correctly. first attempt set at 0.7mm
 												// second attempt=2.2
 												// 3rd attempt 1.7mm
 									
 board_width=56+interior_extra_space;			
 board_length=63.8+interior_extra_space;		// first attempt was 63.3mm
 
-
+//battery_compartment_width=0;	 // 0 for no battery compartment
 battery_compartment_width=32;			// 32mm to accomodate battery holder
 									//29.5mm second attempt: snug fit (for no battery holder)
 									//first attempt 29mm (too small)
-									// zero for no battery compartment
+
+		
+					
+									
 partition_wall_width=1;				// partition wall thickness for battery compartment
 
 box_wall_thickness=1;			// 1.5 ish should be fine 
