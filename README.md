@@ -2,6 +2,9 @@ openenergymonitor-emontx_box
 ============================
 
 OpenSCAD code to render an emonTX box (openenergymonitor.org)
+This box has been sucessfully printed on a RepRap 3D printer with a 0.5mm hot end.
+Other 3D printers may require the parameters of this code to be tweaked..
+..to get a good push fit for board, lid and batteries
 
 Apply parameter settings (0 or 1) to render connector holes according to your specific needs
 
